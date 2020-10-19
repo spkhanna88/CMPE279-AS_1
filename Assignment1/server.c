@@ -51,10 +51,10 @@ int main(int argc, char const *argv[])
         exit(EXIT_FAILURE);
     }
 
-    //******************* Separate part that processes the data from the client ***********//////////
+    
     printf("Line 55 - I am Parent with id: %d\n", getpid());
     printf("Line 56 - My uid is: %d \n", getuid());
-
+                              //******************* Separate part that processes the data from the client ***********//////////
     // ->> Creating a child process using fork
     pid_t forkedProcess;
     forkedProcess = fork();
