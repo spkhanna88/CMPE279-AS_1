@@ -1,4 +1,4 @@
-# CMPE279-AS_1-2
+# CMPE279-Assignment1
 
 -> Participants : 
 
